@@ -6,7 +6,7 @@ authors = ["Denny Biasiolli <dennybiasiolli@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 
 
 [build-system]

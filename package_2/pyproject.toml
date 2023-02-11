@@ -1,19 +1,15 @@
 [tool.poetry]
-name = "email-ingest"
+name = "package-2"
 version = "0.1.0"
 description = ""
 authors = ["Denny Biasiolli <dennybiasiolli@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "email_ingest"}]
+packages = [{include = "package_2"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 shared = {path = "../shared", develop = true}
 
-
-[tool.poetry.group.dev.dependencies]
-flake8 = "^6.0.0"
-black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]

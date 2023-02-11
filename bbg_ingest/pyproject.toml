@@ -9,6 +9,7 @@ packages = [{include = "bbg_ingest"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 requests = "^2.28.2"
+shared = {path = "../shared", develop = true}
 
 
 [build-system]
